@@ -28,6 +28,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d855/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
     vendor/lge/d855/proprietary/vendor/etc/data/dsi_config.xml:system/vendor/etc/data/dsi_config.xml \
     vendor/lge/d855/proprietary/vendor/etc/data/netmgr_config.xml:system/vendor/etc/data/netmgr_config.xml \
+    vendor/lge/d855/proprietary/vendor/etc/data/qmi_config.xml:system/vendor/etc/data/qmi_config.xml \
     vendor/lge/d855/proprietary/vendor/firmware/venus.b00:system/vendor/firmware/venus.b00 \
     vendor/lge/d855/proprietary/vendor/firmware/venus.b01:system/vendor/firmware/venus.b01 \
     vendor/lge/d855/proprietary/vendor/firmware/venus.b02:system/vendor/firmware/venus.b02 \
