@@ -45,7 +45,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3-common/proprietary/vendor/etc/sensors/sensor_def_common.conf:system/vendor/etc/sensors/sensor_def_common.conf \
     vendor/lge/g3-common/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
     vendor/lge/g3-common/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
-    vendor/lge/g3-common/proprietary/vendor/lib/hw/camera.vendor.msm8974.so:system/vendor/lib/hw/camera.vendor.msm8974.so \
+    vendor/lge/g3-common/proprietary/vendor/lib/hw/camera.msm8974.so:system/vendor/lib/hw/camera.msm8974.so \
     vendor/lge/g3-common/proprietary/vendor/lib/hw/consumerir.msm8974.so:system/vendor/lib/hw/consumerir.msm8974.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libHDR.so:system/vendor/lib/libHDR.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libalmalib.so:system/vendor/lib/libalmalib.so \
@@ -145,6 +145,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3-common/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
+    vendor/lge/g3-common/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:system/vendor/lib/libmmcamera2_imglib_modules.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
@@ -157,13 +158,18 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3-common/proprietary/vendor/lib/libmmcamera2_wnr_module.so:system/vendor/lib/libmmcamera2_wnr_module.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
+    vendor/lge/g3-common/proprietary/vendor/lib/libmmcamera_hdr_lib.so:system/vendor/lib/libmmcamera_hdr_lib.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
+    vendor/lge/g3-common/proprietary/vendor/lib/libmmcamera_imx119.so:system/vendor/lib/libmmcamera_imx119.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libmmcamera_imx135.so:system/vendor/lib/libmmcamera_imx135.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libmmcamera_imx208.so:system/vendor/lib/libmmcamera_imx208.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libmmcamera_sonyimx135_eeprom.so:system/vendor/lib/libmmcamera_sonyimx135_eeprom.so \
+    vendor/lge/g3-common/proprietary/vendor/lib/libmmcamera_t4kb3.so:system/vendor/lib/libmmcamera_t4kb3.so \
+    vendor/lge/g3-common/proprietary/vendor/lib/libmmcamera_t4kb3_eeprom.so:system/vendor/lib/libmmcamera_t4kb3_eeprom.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libmmcamera_ubifocus_lib.so:system/vendor/lib/libmmcamera_ubifocus_lib.so \
+    vendor/lge/g3-common/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
